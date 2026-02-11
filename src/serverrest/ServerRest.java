@@ -51,10 +51,6 @@ public class ServerRest {
             System.out.println("  - V1 GET :  http://localhost:" + porta + "/api/v1/calcola/get");
             System.out.println("  - V1 POST:  http://localhost:" + porta + "/api/v1/calcola/post");
             System.out.println();
-            System.out.println("Legacy (usa V1):");
-            System.out.println("  - GET : http://localhost:" + porta + "/api/calcola/get");
-            System.out.println("  - POST: http://localhost:" + porta + "/api/calcola/post");
-            System.out.println("==============================================");
 
         } catch (IOException e) {
             System.err.println("Errore nell'avvio del server: " + e.getMessage());
