@@ -1,4 +1,4 @@
-package serverrest;
+package serverrest.V2;
 
 public class OperazioneResponseV2 {
 
@@ -28,11 +28,33 @@ public class OperazioneResponseV2 {
         this.requestId = requestId;
     }
 
-    public double getOperando1() { return operando1; }
-    public double getOperando2() { return operando2; }
-    public String getOperatore() { return operatore; }
-    public double getRisultato() { return risultato; }
-    public String getOperazione() { return operazione; }
-    public long getTimestamp() { return timestamp; }
-    public String getRequestId() { return requestId; }
+    public double getOperando1() {
+        return operando1;
+    }
+
+    public double getOperando2() {
+        return operando2;
+    }
+
+    public String getOperatore() {
+        return operatore;
+    }
+
+    public double getRisultato() {
+        return risultato;
+    }
+
+    public String getOperazione() {
+        return operazione;
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public String getRequestId() {
+        return requestId;
+    }
+
+    
 }

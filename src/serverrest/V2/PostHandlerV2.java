@@ -1,4 +1,4 @@
-package serverrest;
+package serverrest.V2;
 
 import com.sun.net.httpserver.*;
 import com.google.gson.Gson;
@@ -7,6 +7,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.UUID;
+import serverrest.OperazioneRequest;
 
 public class PostHandlerV2 implements HttpHandler {
 

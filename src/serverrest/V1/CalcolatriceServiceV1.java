@@ -1,4 +1,4 @@
-package serverrest;
+package serverrest.V1;
 
 /**
  * Service V1 della Calcolatrice REST

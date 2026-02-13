@@ -1,4 +1,4 @@
-package serverrest;
+package serverrest.V2;
 
 public class CalcolatriceServiceV2 {
 

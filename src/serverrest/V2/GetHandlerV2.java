@@ -1,4 +1,4 @@
-package serverrest;
+package serverrest.V2;
 
 import com.sun.net.httpserver.*;
 import com.google.gson.Gson;
