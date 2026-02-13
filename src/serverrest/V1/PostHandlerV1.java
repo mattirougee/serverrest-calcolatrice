@@ -17,9 +17,9 @@ import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-import serverrest.CalcolatriceService;
-import serverrest.OperazioneRequest;
-import serverrest.OperazioneResponse;
+import serverrest.Legacy.CalcolatriceService;
+import serverrest.Legacy.OperazioneRequest;
+import serverrest.Legacy.OperazioneResponse;
 
 
 

@@ -15,8 +15,8 @@ import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-import serverrest.CalcolatriceService;
-import serverrest.OperazioneResponse;
+import serverrest.Legacy.CalcolatriceService;
+import serverrest.Legacy.OperazioneResponse;
 
 
 

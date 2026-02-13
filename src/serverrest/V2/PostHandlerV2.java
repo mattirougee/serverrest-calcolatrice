@@ -7,7 +7,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.UUID;
-import serverrest.OperazioneRequest;
+import serverrest.Legacy.OperazioneRequest;
 
 public class PostHandlerV2 implements HttpHandler {
 
