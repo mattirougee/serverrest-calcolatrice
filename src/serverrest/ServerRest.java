@@ -7,6 +7,10 @@ import serverrest.V1.PostHandlerV1;
 import serverrest.V2.GetHandlerV2;
 import serverrest.V2.PostHandlerV2;
 
+//import V3
+import serverrest.V3.GetHandlerV3;
+import serverrest.V3.PostHandlerV3;
+
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpExchange;
 import com.google.gson.Gson;
@@ -16,8 +20,6 @@ import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-import serverrest.V3.GetHandlerV3;
-import serverrest.V3.PostHandlerV3;
 
 /**
  * Server REST per la calcolatrice e convertitore
@@ -78,9 +80,8 @@ public class ServerRest {
             System.out.println("  - GET: http://localhost:" + porta + "/api/v3/converte/get");
             System.out.println("  - POST:  http://localhost:" + porta + "/api/v3/converte/post");
             
-            System.out.println("INFO");
-            System.out.println("  - Versioni: http://localhost:" + porta + "/api/versioni");
-            System.out.println("  - Home:     http://localhost:" + porta + "/");
+            System.out.println();
+            System.out.println("  Info:     http://localhost:" + porta + "/");
             System.out.println();
 
         } catch (IOException e) {
@@ -124,7 +125,7 @@ public class ServerRest {
         info.put("endpoints", allEndpoints);
 
         Map<String, String> operatori = new HashMap<>();
-        operatori.put("calcolatrice", "SOMMA, SOTTRAZIONE, MOLTIPLICAZIONE, DIVISIONE, POTENZA, RADICE");
+        operatori.put("calcolatrice", "SOMMA, SOTTRAZIONE, MOLTIPLICAZIONE, DIVISIONE, POTENZA, RADICE, MODULO");
         operatori.put("convertitore", "mt (metri), yd (yard)");
         info.put("operatori_supportati", operatori);
 
